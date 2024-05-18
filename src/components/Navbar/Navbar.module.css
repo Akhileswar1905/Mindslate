@@ -10,7 +10,7 @@
   transform: translateY(-100%);
   animation: slideDown 1s ease-out forwards;
   z-index: 10000;
-  opacity : 20;
+  opacity : 20; 
 }
 
 .logo > img {
