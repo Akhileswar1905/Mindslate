@@ -1,5 +1,12 @@
 .container {
   height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #fff89a 0%,
+    #9be19d 25%,
+    #8ca8dc 50%,
+    #5278ff 100%
+  );
 }
 
 .home {

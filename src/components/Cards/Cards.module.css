@@ -1,6 +1,71 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main {
+  height: 100vh;
+  background-color: #020120;
   color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.card {
+  width: 1000px;
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  position: relative;
+  transform-origin: top;
+}
+
+.image > img {
+  border-radius: 50%;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.devDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.devDetails > h2 {
+  font-size: 55px;
+}
+
+.devDetails > p {
+  font-size: 25px;
+}
+
+.desc {
+  font-size: 20px;
+  margin-top: 28px;
+  flex-grow: 1;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 23px;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.icons > svg {
+  color: white;
+  cursor: pointer;
 }
