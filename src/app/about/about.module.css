@@ -3,3 +3,43 @@
   background-color: #020120;
   color: white;
 }
+.glassyBox {
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(100px);
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(30, 30, 30, 0.5);
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 150px;
+  margin-left : 100px;
+}
+.glassyBox p{
+  text-align : left;
+  line-height : 30px;
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
+  animation : fade-In 1s ease-in-out forwards;
+}
+.image {
+  position :relative;
+  float : right;
+  margin-right: 100px;
+  margin-top : 150px;
+  padding : 0;
+  border-radius : 30px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  height : 500px;
+  object-fit:cover;
+  animation : fade-In 1s ease-in-out forwards;
+}
+@keyframes fade-In {
+  from{
+    opacity : 0;
+  }
+  to {
+    opacity :1;
+  }
+}
