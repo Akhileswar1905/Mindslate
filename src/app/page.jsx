@@ -11,8 +11,8 @@ export default function Home() {
             <p>“ CRAFTING PURPOSEFUL APPS FOR TOMORROW’S NEEDS “</p>
           </div>
         </div>
-        <TeamsPage />
         <AboutPage />
+        <TeamsPage />
       </div>
     </>
   );
