@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="/about">About Us</a>
         <a href="/teams">Team</a>
         <a href="/our-work">Our Works</a>
-        <a href="awards">Awards and Recognitions</a>
+        <a href="/awards">Awards and Recognitions</a>
       </div>
     </div>
   );
