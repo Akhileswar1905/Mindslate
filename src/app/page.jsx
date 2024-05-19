@@ -1,4 +1,4 @@
-import AboutPage from "./about/page";
+import AboutPage from "./about-home/page";
 import styles from "./page.module.css";
 import TeamsPage from "./teams/page";
 

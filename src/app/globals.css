@@ -4,15 +4,9 @@
   margin: 0;
 }
 body {
-  /* background: linear-gradient(
-    135deg,
-    #fff89a 0%,
-    #9be19d 25%,
-    #8ca8dc 50%,
-    #5278ff 100%
-  ); */
   background-color: #020120;
   height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html::-webkit-scrollbar {
