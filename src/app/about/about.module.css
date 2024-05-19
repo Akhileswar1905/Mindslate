@@ -20,7 +20,7 @@
 .glassyBox p {
   text-align: left;
   font-size: 32px;
-  animation: fade-In 1s ease-in-out;
+  animation: fade-Right 1s ease-in-out;
 }
 .image {
   margin-right: 100px;
@@ -31,7 +31,7 @@
   background-color: rgba(255, 255, 255, 0.1);
   height: 500px;
   object-fit: cover;
-  animation: fade-In 1s ease-in-out;
+  animation: fade-Left 1s ease-in-out;
 }
 
 .heading {
@@ -46,6 +46,7 @@
   align-items: center;
   justify-content: space-between;
   transition: transform 0.3s ease-out;
+  animation: fade-Up 1s ease-in;
   margin: 1rem;
   border-radius: 25px;
   padding: 30px;
@@ -53,6 +54,36 @@
 }
 
 @keyframes fade-In {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fade-Up {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fade-Left {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fade-Right {
   from {
     transform: translateX(-100px);
     opacity: 0;
