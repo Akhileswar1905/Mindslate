@@ -33,14 +33,14 @@
 .image {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 30px;
 }
 
 .devDetails {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .devDetails > h2 {

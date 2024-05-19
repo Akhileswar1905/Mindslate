@@ -9,22 +9,22 @@ const TeamsPage = () => {
 
   const { scrollYProgress } = useScroll({
     target: container,
-
     offset: ["start start", "end end"],
   });
 
   return (
-    <div className={styles.main}>
+    <div ref={container} className={styles.main}>
       <h1 className={styles.heading}>Meet Our Team</h1>
       {data.map((item, index) => {
         const targetScale = 1 - (data.length - index) * 0.05;
+
         return (
           <Cards
             key={index}
             {...item}
             i={index}
             progress={scrollYProgress}
-            range={[index * 0.25, 1]}
+            range={[index * 0.25, data.length * 0.25]}
             targetScale={targetScale}
           />
         );

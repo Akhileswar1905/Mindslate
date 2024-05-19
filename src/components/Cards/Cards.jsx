@@ -2,7 +2,7 @@
 import Image from "next/image";
 import styles from "./Cards.module.css";
 import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useTransform } from "framer-motion";
 const Cards = ({
   id,
   name,
