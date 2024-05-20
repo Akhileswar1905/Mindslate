@@ -12,6 +12,8 @@ const Cards = ({
   desc,
   color,
   linkedin,
+  github,
+  email,
   i,
   progress,
   range,
@@ -41,10 +43,10 @@ const Cards = ({
           <a href={linkedin} target="_blank">
             <FaLinkedin />
           </a>
-          <a href="">
+          <a href={github} target="_blank">
             <FaGithub />
           </a>
-          <a href="">
+          <a href={`mailto:${email}`} target="_blank">
             <MdOutlineAlternateEmail />
           </a>
         </div>

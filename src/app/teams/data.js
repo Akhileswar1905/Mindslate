@@ -10,6 +10,8 @@ export const data = [
     desc: "Hariprasad is the visionary leader of Mindslate. His passion for creating cutting-edge solutions and fostering a collaborative culture is the heartbeat of our company.",
     color: "#030054",
     linkedin: "https://www.linkedin.com/in/hariprasad-anuganti-58441124b/",
+    email: "dev.mindslate@gmail.com",
+    github: "http://github.com/hariprasad2512",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ export const data = [
     desc: "Rachana is the heart of our team. Her dedication to fostering a positive work environment and supporting our employees ensures that Mindslate is a great place to work.",
     color: "#030064",
     linkedin: "https://www.linkedin.com/in/rachana-adulapuram-3670032a9/",
+    email: "rachana.mindslate@gmail.com",
+    github: "",
   },
   {
     id: 3,
@@ -30,6 +34,8 @@ export const data = [
     desc: "Akhileswar is a talented MERN stack developer at Mindslate. His expertise in building dynamic web applications and his commitment to innovation drive our success.",
     color: "#04006F",
     linkedin: "https://www.linkedin.com/in/sathivada-akhileswar-243b66237/",
+    email: "akhileshwar.mindslate@gmail.com",
+    github: "https://github.com/Akhileswar1905",
   },
   {
     id: 4,
@@ -40,6 +46,8 @@ export const data = [
     desc: "Kruthik is our go-to expert for all things web. His ability to create seamless and efficient websites ensures that our online presence is always strong and user-friendly.",
     color: "#040078",
     linkedin: "https://www.linkedin.com/in/kruthik-juvventhula-51955b230/",
+    email: "kruthik.mindslate@gmail.com",
+    github: "https://github.com/kruthik003",
   },
   {
     id: 5,
@@ -50,6 +58,8 @@ export const data = [
     desc: "Sreeja is a talented app developer at Mindslate. Her expertise in creating user-friendly and engaging mobile applications ensures that our products are always top-notch.",
     color: "#040087",
     linkedin: "https://www.linkedin.com/in/sreeja-pasunuri-62808a260/",
+    email: "sreeja.mindslate@gmail.com",
+    github: "http://github.com/sreejareddy15",
   },
   {
     id: 6,
@@ -60,6 +70,8 @@ export const data = [
     desc: "Manikandan's innovative approach and attention to detail ensure our apps are both functional and engaging. He is dedicated to enhancing user experiences through cutting-edge technology.",
     color: "#040099",
     linkedin: "https://www.linkedin.com/in/vasantha-manikandan-0454b2230",
+    email: "manikandan.mindslate@gmail.com",
+    github: "https://github.com/vasantha26",
   },
   {
     id: 7,
@@ -70,5 +82,7 @@ export const data = [
     desc: "Rizwan specializes in creating intuitive and user-friendly mobile applications. His creativity and technical skills bring our ideas to life on your devices.",
     color: "#0400a6",
     linkedin: "https://www.linkedin.com/in/mohd-rizwan-4b4447182/",
+    email: "rizwan.mindslate@gmail.com",
+    github: "",
   },
 ];
