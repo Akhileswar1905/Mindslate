@@ -10,3 +10,10 @@
   font-size: 7rem;
   padding: 40px;
 }
+
+/* Media Queries */
+@media (max-width: 1366px) {
+  .heading {
+    font-size: 5rem;
+  }
+}

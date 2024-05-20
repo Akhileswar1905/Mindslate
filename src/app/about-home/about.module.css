@@ -61,3 +61,22 @@
     opacity: 1;
   }
 }
+
+/* Media Queries */
+@media (max-width: 1366px) {
+  .heading {
+    font-size: 5rem;
+  }
+  .glassyBox {
+    margin: 0;
+  }
+  .glassyBox > p {
+    font-size: 1.5rem;
+  }
+  .box {
+    padding: 2rem;
+  }
+  .image {
+    margin: 0;
+  }
+}

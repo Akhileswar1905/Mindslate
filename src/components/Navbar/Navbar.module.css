@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  width: 75vw;
   padding: 1rem;
   transform: translateY(-100%);
   animation: slideDown 1s ease-out forwards;
@@ -66,5 +66,15 @@
   }
   to {
     transform: translateY(0);
+  }
+}
+
+/* Media queries */
+@media (max-width: 1366px) {
+  .navbar {
+    width: 80vw;
+  }
+  .logo > img {
+    height: 80px;
   }
 }

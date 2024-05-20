@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import styles from "./Cards.module.css";
-import { FaLinkedin, FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 import { motion, useTransform } from "framer-motion";
 const Cards = ({
   id,
@@ -10,6 +11,7 @@ const Cards = ({
   image,
   desc,
   color,
+  linkedin,
   i,
   progress,
   range,
@@ -36,9 +38,15 @@ const Cards = ({
         </div>
         <div className={styles.desc}>{desc}</div>
         <div className={styles.icons}>
-          <FaLinkedin />
-          <FaGithub />
-          <FaInstagramSquare />
+          <a href={linkedin} target="_blank">
+            <FaLinkedin />
+          </a>
+          <a href="">
+            <FaGithub />
+          </a>
+          <a href="">
+            <MdOutlineAlternateEmail />
+          </a>
         </div>
       </motion.div>
     </div>

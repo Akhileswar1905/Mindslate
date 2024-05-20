@@ -35,7 +35,7 @@
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 10rem;
   text-align: center;
   animation: fade-In 1s ease-in;
   padding: 40px;
@@ -91,5 +91,24 @@
   to {
     transform: translateX(0px);
     opacity: 1;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1366px) {
+  .heading {
+    font-size: 5rem;
+  }
+  .glassyBox {
+    margin: 0;
+  }
+  .glassyBox > p {
+    font-size: 1.5rem;
+  }
+  .box {
+    padding: 2rem;
+  }
+  .image {
+    margin: 0;
   }
 }

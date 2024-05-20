@@ -24,7 +24,7 @@ const TeamsPage = () => {
             {...item}
             i={index}
             progress={scrollYProgress}
-            range={[index * 0.25, data.length * 0.25]}
+            range={[index * 0.25, data.length * 0.25 + 1]}
             targetScale={targetScale}
           />
         );
