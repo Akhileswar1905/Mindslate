@@ -14,8 +14,8 @@
 }
 
 .card {
-  width: 1000px;
-  height: 500px;
+  width: 70%;
+  height: 60%;
   border-radius: 25px;
   overflow: hidden;
   display: flex;
@@ -72,11 +72,6 @@
 
 /* Media Query */
 @media (max-width: 1366px) {
-  .card {
-    width: 60%;
-    height: 60%;
-  }
-
   .image {
     flex-direction: column;
     gap: 20px;
