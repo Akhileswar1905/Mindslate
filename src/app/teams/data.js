@@ -31,7 +31,7 @@ export const data = [
     role: "Web Developer at Mindslate",
     image:
       "https://media.licdn.com/dms/image/D5603AQGdgoJgG-l09A/profile-displayphoto-shrink_200_200/0/1671408471507?e=1721865600&v=beta&t=ztd4QokX5ZJchilGZgkiOHFJe5RDRlgimvVL70oSdCo",
-    desc: "Akhileswar is a talented MERN stack developer at Mindslate. His expertise in building dynamic web applications and his commitment to innovation drive our success.",
+    desc: "Akhileswar is a skilled MERN stack developer at Mindslate. He’s great at creating dynamic web applications, and his dedication to new ideas helps our team succeed.",
     color: "#04006F",
     linkedin: "https://www.linkedin.com/in/sathivada-akhileswar-243b66237/",
     email: "akhileshwar.mindslate@gmail.com",
