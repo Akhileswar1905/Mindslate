@@ -9,7 +9,9 @@ const AboutPage = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setOffset(window.scrollY);
+      setOffset(
+        window.scrollY > window.scrollX ? window.scrollY : window.scrollX
+      );
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -19,7 +21,6 @@ const AboutPage = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(offset);
 
   return (
     <div className={styles.main}>
@@ -27,7 +28,7 @@ const AboutPage = () => {
         className={styles.heading}
         style={{ transform: `translateX(${offset * 1}px)` }}
       >
-        About Us
+        <span className="span">About</span> Us
       </h1>
 
       <div
@@ -38,10 +39,11 @@ const AboutPage = () => {
       >
         <div className={styles.glassyBox}>
           <p>
-            We are a passionate team of App Developers dedicated to creating
-            apps that make people&apos;s lives easier and more enjoyable. Our
-            core mission is to understand and serve the unique needs of each
-            client, ensuring we deliver the best possible solutions.
+            Here at Mindslate, we develop next-generation mobile and web apps to
+            tackle tomorrow&apos;s challenges. Our dedicated team of app
+            developers, web developers, and UX designers harness the latest
+            technologies to create intuitive, sustainable solutions that enhance
+            lives and drive progress.
           </p>
         </div>
         <div className={styles.image}>

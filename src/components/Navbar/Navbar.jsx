@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import logo from "../../../public/assests/logo.png";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
@@ -8,13 +9,17 @@ const Navbar = () => {
         <Image src={logo} alt="logo" />
       </div>
       <div className={styles.navLinks}>
-        <a href="/">Home</a>
-        <a href="/applications">Apps</a>
-        <a href="/contact-us">Contact Us</a>
-        <a href="/about">About Us</a>
-        <a href="/teams">Team</a>
-        <a href="/our-work">Our Works</a>
-        <a href="awards">Awards and Recognitions</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About Us</Link>
+        <Link href={"/our-services"}>Our Services</Link>
+        <Link href="/our-work">Our Works</Link>
+        {/* <Link href="awards">Awards</Link> */}
+        <Link href="testimonials">Testimonials</Link>
+      </div>
+      <div className={styles.contactus}>
+        <Link href={"/contact-us"}>
+          <button className={styles.contactusButton}>Contact Us</button>
+        </Link>
       </div>
     </div>
   );

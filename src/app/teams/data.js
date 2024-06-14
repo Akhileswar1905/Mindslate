@@ -1,5 +1,3 @@
-import person from "../../../public/assests/person.jpg";
-
 export const data = [
   {
     id: 1,
@@ -8,10 +6,11 @@ export const data = [
     image:
       "https://media.licdn.com/dms/image/D4E03AQFhg1leq4pAcQ/profile-displayphoto-shrink_200_200/0/1709902875237?e=1721865600&v=beta&t=mGJG5-Z2AIpFMmddMgya-y0WGY7KZ8VWpCGZT86O6ao",
     desc: "Hariprasad is the visionary leader of Mindslate. His passion for creating cutting-edge solutions and fostering a collaborative culture is the heartbeat of our company.",
-    color: "#030054",
+    color: "#131316",
     linkedin: "https://www.linkedin.com/in/hariprasad-anuganti-58441124b/",
     email: "dev.mindslate@gmail.com",
     github: "http://github.com/hariprasad2512",
+    quote: "Innovation distinguishes between a leader and a follower.",
   },
   {
     id: 2,
@@ -20,69 +19,104 @@ export const data = [
     image:
       "https://media.licdn.com/dms/image/D5603AQEcHaiKzV03sA/profile-displayphoto-shrink_800_800/0/1704642799984?e=1721865600&v=beta&t=zzvti97jM6Yk2EFZXZqtVgTmX0GSlPbXPnSDOGJo6zI",
     desc: "Rachana is the heart of our team. Her dedication to fostering a positive work environment and supporting our employees ensures that Mindslate is a great place to work.",
-    color: "#030064",
+    color: "#1c1c21",
     linkedin: "https://www.linkedin.com/in/rachana-adulapuram-3670032a9/",
     email: "rachana.mindslate@gmail.com",
     github: "",
+    quote:
+      "The strength of the team is each individual member. The strength of each member is the team.",
   },
   {
     id: 3,
-    name: "Akhileswar Sathivada",
-    role: "Web Developer at Mindslate",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQGdgoJgG-l09A/profile-displayphoto-shrink_200_200/0/1671408471507?e=1721865600&v=beta&t=ztd4QokX5ZJchilGZgkiOHFJe5RDRlgimvVL70oSdCo",
-    desc: "Akhileswar is a skilled MERN stack developer at Mindslate. He’s great at creating dynamic web applications, and his dedication to new ideas helps our team succeed.",
-    color: "#04006F",
-    linkedin: "https://www.linkedin.com/in/sathivada-akhileswar-243b66237/",
-    email: "akhileshwar.mindslate@gmail.com",
-    github: "https://github.com/Akhileswar1905",
-  },
-  {
-    id: 4,
-    name: "Kruthik Juvventhula",
-    role: "Web Developer at Mindslate",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQGhsuLcA11YZw/profile-displayphoto-shrink_200_200/0/1715648091129?e=1721865600&v=beta&t=bxE5m_VDNKoJAeMdX9FFshFKGNzJpZ_vFchQ4Hw5kAU",
-    desc: "Kruthik is our go-to expert for all things web. His ability to create seamless and efficient websites ensures that our online presence is always strong and user-friendly.",
-    color: "#040078",
-    linkedin: "https://www.linkedin.com/in/kruthik-juvventhula-51955b230/",
-    email: "kruthik.mindslate@gmail.com",
-    github: "https://github.com/kruthik003",
-  },
-  {
-    id: 5,
     name: "Sreeja Pasunuri",
     role: "App Developer at Mindslate",
     image:
       "https://media.licdn.com/dms/image/D5603AQGKeCtnuoCmhA/profile-displayphoto-shrink_200_200/0/1681406338462?e=1721865600&v=beta&t=47k-1ZwQXYQAVXfSm6yJFPrmVb5Zd2jrx4pyDE8pZEM",
     desc: "Sreeja is a talented app developer at Mindslate. Her expertise in creating user-friendly and engaging mobile applications ensures that our products are always top-notch.",
-    color: "#040087",
+    color: "#26262c",
     linkedin: "https://www.linkedin.com/in/sreeja-pasunuri-62808a260/",
     email: "sreeja.mindslate@gmail.com",
     github: "http://github.com/sreejareddy15",
+    quote: "The best way to predict the future is to create it.",
   },
   {
-    id: 6,
+    id: 4,
     name: "Vasantha Manikandan",
     role: "App Developer at Mindslate",
     image:
       "https://media.licdn.com/dms/image/D5603AQH1aVh97bzN4Q/profile-displayphoto-shrink_200_200/0/1715398635651?e=2147483647&v=beta&t=Y4omZ_4aFSG756PRs84YkRm4Z-XWsdBVZAVFbKVYvK0",
     desc: "Manikandan's innovative approach and attention to detail ensure our apps are both functional and engaging. He is dedicated to enhancing user experiences through cutting-edge technology.",
-    color: "#040099",
+    color: "#2f3037",
     linkedin: "https://www.linkedin.com/in/vasantha-manikandan-0454b2230",
     email: "manikandan.mindslate@gmail.com",
     github: "https://github.com/vasantha26",
+    quote: "Make it work, make it right, make it fast.",
+  },
+  {
+    id: 5,
+    name: "Akhileswar Sathivada",
+    role: "Web Developer at Mindslate",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQGdgoJgG-l09A/profile-displayphoto-shrink_200_200/0/1671408471507?e=1721865600&v=beta&t=ztd4QokX5ZJchilGZgkiOHFJe5RDRlgimvVL70oSdCo",
+    desc: "Akhileswar is a skilled MERN stack developer at Mindslate. He’s great at creating dynamic web applications, and his dedication to new ideas helps our team succeed.",
+    color: "#393a41",
+    linkedin: "https://www.linkedin.com/in/sathivada-akhileswar-243b66237/",
+    email: "akhileshwar.mindslate@gmail.com",
+    github: "https://github.com/Akhileswar1905",
+    quote: "Code is like humor. When you have to explain it, it’s bad.",
+  },
+  {
+    id: 6,
+    name: "Kruthik Juvventhula",
+    role: "Web Developer at Mindslate",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQGhsuLcA11YZw/profile-displayphoto-shrink_200_200/0/1715648091129?e=1721865600&v=beta&t=bxE5m_VDNKoJAeMdX9FFshFKGNzJpZ_vFchQ4Hw5kAU",
+    desc: "Kruthik is our go-to expert for all things web. His ability to create seamless and efficient websites ensures that our online presence is always strong and user-friendly.",
+    linkedin: "https://www.linkedin.com/in/kruthik-juvventhula-51955b230/",
+    color: "#4b4c52",
+    email: "kruthik.mindslate@gmail.com",
+    github: "https://github.com/kruthik003",
+    quote: "First, solve the problem. Then, write the code.",
   },
   {
     id: 7,
-    name: "Mohd Rizwan",
-    role: "App Developer at Mindslate",
+    name: "Gowtham Saladi",
+    role: "Web Developer at Mindslate",
+    color: "#5c5d64",
     image:
-      "https://media.licdn.com/dms/image/D5635AQHJUsSJkrfEIA/profile-framedphoto-shrink_200_200/0/1710475516346?e=1716721200&v=beta&t=8HJFy7Qkz-mp_z7_iJdZ7wIixA7CHCeBj0IEUQMeqq8",
-    desc: "Rizwan specializes in creating intuitive and user-friendly mobile applications. His creativity and technical skills bring our ideas to life on your devices.",
-    color: "#0400a6",
-    linkedin: "https://www.linkedin.com/in/mohd-rizwan-4b4447182/",
-    email: "rizwan.mindslate@gmail.com",
+      "https://media.licdn.com/dms/image/D5603AQFJ3pXyrq4ILg/profile-displayphoto-shrink_800_800/0/1671340076526?e=1723680000&v=beta&t=-guqFd_bX7GiYq9YEO7NRGtZqDAuEbyzpyPgX6_yNbY",
+    desc: "Gowtham is a talented web developer at Mindslate. His expertise in creating user-friendly and engaging websites ensures that our online presence is always top-notch.",
+    linkedin:
+      "https://www.linkedin.com/in/sri-gowtham-ranga-sai-saladi-528130255/",
+    email: "gowtham.mindslate@gmail.com",
+    github: "https://github.com/coding-12345",
+    quote: "Simplicity is the ultimate sophistication.",
+  },
+  {
+    id: 8,
+    name: "Thanusha Nakka",
+    role: "UI Designer at Mindslate",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQHvaOs9RKL3sA/profile-displayphoto-shrink_800_800/0/1709312397667?e=1723680000&v=beta&t=HMMA_BZRlACt0VrHSaeKBVXprhYeJtcVsiGvglllmSU",
+    desc: "Thanusha is a talented UX designer at Mindslate. Her creative designs and user-centric approach ensure that our products are not only visually appealing but also highly functional.",
+    linkedin: "https://www.linkedin.com/in/thanusha-nakka-688817262/",
     github: "",
+    email: "nakkathanusha16@gmail.com",
+    color: "#6c6d74",
+    quote: "Good design is obvious. Great design is transparent.",
+  },
+  {
+    id: 9,
+    name: "Meghana Chimata",
+    role: "UX Designer at Mindslate",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQEj4ltrFaN2Aw/profile-displayphoto-shrink_800_800/0/1718347512497?e=1723680000&v=beta&t=UEpoCqPIaPOkSIWj_mW6VdqWuF168Xgh48sZ0ePhNec",
+    desc: "Meghana is a talented UX designer at Mindslate. Her creative designs and user-centric approach ensure that our products are not only visually appealing but also highly functional.",
+    linkedin: "https://www.linkedin.com/in/meghana-chimata-957849264/",
+    github: "",
+    email: "meghana.mindslate@gmail.com",
+    color: "#7d7e85",
+    quote:
+      "Design is not just what it looks like and feels like. Design is how it works.",
   },
 ];

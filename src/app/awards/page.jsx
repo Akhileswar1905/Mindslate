@@ -1,7 +1,6 @@
-import React from "react";
-
+import styles from "./awards.module.css";
 const AwardsPage = () => {
-  return <div>AwardsPage</div>;
+  return <div className={styles.container}>AwardsPage</div>;
 };
 
 export default AwardsPage;

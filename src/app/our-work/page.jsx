@@ -1,7 +1,6 @@
-import React from "react";
-
+import styles from "./ourwork.module.css";
 const OurWorksPage = () => {
-  return <div>OurWorksPage</div>;
+  return <div className={styles.container}>OurWorksPage - Gowtham</div>;
 };
 
 export default OurWorksPage;
