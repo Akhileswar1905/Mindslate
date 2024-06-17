@@ -82,6 +82,10 @@
   cursor: pointer;
 }
 
+.icons2 {
+  display: none;
+}
+
 /* Media Query */
 @media (max-width: 1366px) {
   .image {
