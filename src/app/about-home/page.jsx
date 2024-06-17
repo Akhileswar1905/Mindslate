@@ -6,28 +6,34 @@ import image from "./images/team.jpeg";
 
 const AboutPage = () => {
   const [offset, setOffset] = useState(0);
-  let xoffset = 1;
-  let yoffset = 0.5;
-  let flag = true;
-  let style = { transform: `translateX(${offset * xoffset}px)` };
-  if (window.innerWidth < window.innerHeight) {
-    flag = false;
-    style = { transform: `translateX(${offset * 0.1}px)` };
-  }
+  const [style, setStyle] = useState({});
+  const [flag, setFlag] = useState(true);
+  const xoffset = 1;
+  const yoffset = 0.5;
+
   useEffect(() => {
-    const handleScroll = () => {
-      setOffset(
-        window.scrollY > window.scrollX ? window.scrollY : window.scrollX
-      );
-    };
+    if (typeof window !== "undefined") {
+      let style = { transform: `translateX(${offset * xoffset}px)` };
+      if (window.innerWidth < window.innerHeight) {
+        setFlag(false);
+        style = { transform: `translateX(${offset * 0.1}px)` };
+      }
+      setStyle(style);
 
-    window.addEventListener("scroll", handleScroll);
+      const handleScroll = () => {
+        setOffset(
+          window.scrollY > window.scrollX ? window.scrollY : window.scrollX
+        );
+      };
 
-    // Cleanup event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.addEventListener("scroll", handleScroll);
+
+      // Cleanup event listener on component unmount
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
+  }, [offset, xoffset]);
 
   return (
     <div className={styles.main}>
