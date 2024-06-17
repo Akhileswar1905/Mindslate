@@ -117,6 +117,11 @@
     font-size: 30px;
   }
 
+  .image > img {
+    width: 150px;
+    height: 150px;
+  }
+
   .devDetails > p {
     font-size: 15px;
   }
@@ -127,7 +132,7 @@
   }
 
   .quote {
-    font-size: 20px;
+    font-size: 16px;
     /* padding: 1rem 0; */
   }
 
@@ -135,7 +140,7 @@
     display: none;
   }
   .icons2 {
-    font-size: 15px;
+    font-size: 20px;
     gap: 10px;
   }
 }
