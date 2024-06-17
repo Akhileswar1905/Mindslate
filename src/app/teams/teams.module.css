@@ -9,3 +9,13 @@
   font-size: 5rem;
   padding: 40px;
 }
+
+@media (max-width: 400px) {
+  .main {
+    margin-top: 0vh;
+    /* margin-bottom: 100vh; */
+  }
+  .heading {
+    font-size: 3rem;
+  }
+}

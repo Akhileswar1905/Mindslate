@@ -98,7 +98,7 @@ export const data = [
     role: "UI Designer at Mindslate",
     image:
       "https://media.licdn.com/dms/image/D5603AQHvaOs9RKL3sA/profile-displayphoto-shrink_800_800/0/1709312397667?e=1723680000&v=beta&t=HMMA_BZRlACt0VrHSaeKBVXprhYeJtcVsiGvglllmSU",
-    desc: "Thanusha is a talented UX designer at Mindslate. Her creative designs and user-centric approach ensure that our products are not only visually appealing but also highly functional.",
+    desc: "Thanusha is a talented UI designer at Mindslate. Her creative designs and user-centric approach ensure that our products are not only visually appealing but also highly functional.",
     linkedin: "https://www.linkedin.com/in/thanusha-nakka-688817262/",
     github: "",
     email: "nakkathanusha16@gmail.com",

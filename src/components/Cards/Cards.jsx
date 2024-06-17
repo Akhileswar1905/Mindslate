@@ -23,7 +23,7 @@ const Cards = ({
 }) => {
   // Calculate scale based on scroll progress
   const scale = useTransform(progress, range, [1, targetScale]);
-  console.log(scale);
+  // console.log(scale);
   return (
     <div className={styles.container}>
       <motion.div
@@ -36,6 +36,21 @@ const Cards = ({
       >
         <div className={styles.image}>
           <Image src={image} alt="person" width={200} height={200} />
+          <div className={styles.icons2}>
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
+              <FaLinkedin />
+            </a>
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              <FaGithub />
+            </a>
+            <a
+              href={`mailto:${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdOutlineAlternateEmail />
+            </a>
+          </div>
           <div className={styles.devDetails}>
             <h2>{name}</h2>
             <p>{role}</p>

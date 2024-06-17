@@ -6,7 +6,14 @@ import image from "./images/team.jpeg";
 
 const AboutPage = () => {
   const [offset, setOffset] = useState(0);
-
+  let xoffset = 1;
+  let yoffset = 0.5;
+  let flag = true;
+  let style = { transform: `translateX(${offset * xoffset}px)` };
+  if (window.innerWidth < window.innerHeight) {
+    flag = false;
+    style = { transform: `translateX(${offset * 0.1}px)` };
+  }
   useEffect(() => {
     const handleScroll = () => {
       setOffset(
@@ -24,17 +31,14 @@ const AboutPage = () => {
 
   return (
     <div className={styles.main}>
-      <h1
-        className={styles.heading}
-        style={{ transform: `translateX(${offset * 1}px)` }}
-      >
+      <h1 className={styles.heading} style={style}>
         <span className="span">About</span> Us
       </h1>
 
       <div
         className={styles.box}
         style={{
-          transform: `translateY(calc(-${offset * 0.5}px))`,
+          transform: `translateY(calc(-${offset * yoffset}px))`,
         }}
       >
         <div className={styles.glassyBox}>

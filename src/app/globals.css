@@ -10,6 +10,24 @@
   margin: 0;
 }
 
+.group > p {
+  font-size: 10px;
+}
+.group {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.tabNavWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @font-face {
   font-family: "Sansation";
   src: url("/fonts/Sansation_Bold.ttf") format("ttf")

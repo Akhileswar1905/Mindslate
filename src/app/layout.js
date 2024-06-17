@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import TabNav from "@/components/TabNav/TabNav";
 
 const inter = Inter({ subsets: ["latin"] });
 const sansation = localFont({
@@ -34,10 +35,17 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="en">
-        <body className={sansation.className}>
-          <Navbar />
-          {children}
-          <Footer />
+        <body
+          className={sansation.className}
+          style={{ display: "flex", flexDirection: "column" }}
+        >
+          <div>
+            <Navbar />
+            {children}
+            <div className="tabNavWrapper">
+              <TabNav />
+            </div>
+          </div>
         </body>
       </html>
     </>
