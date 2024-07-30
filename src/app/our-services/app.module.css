@@ -1,7 +1,74 @@
-.container {
+.services {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  margin-left : 50px;
+  margin-top : 150px;
   height: 100vh;
   color: white;
+  flex-direction : column;
+  animation : fade-In 2s;
+}
+.span {
+  color: var(--primary-color);
+  background: -webkit-linear-gradient(right, #f0ac47, var(--primary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.services > p{
+  font-size : 4rem;
+}
+.container{
+  display : flex;
+  margin-top : 60px;
+}
+.image{
+  width : 500px;
+  height : 300px;
+  border-radius : 25px;
+}
+.image > img{
+  width : 100%;
+  height : 100%;
+  object-fit :contain;
+}
+.service_right{
+  display : flex;
+  flex-direction : column;
+  margin-left : 50px;
+  width : 600px;
+}
+.service_right > h1{
+  font-weight : 400;  
+  color: var(--primary-color);
+  background: linear-gradient(180deg, #FBB247 -12.54%, #9E702D 126.72%, #956A2A 145.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service_right > p{
+  font-size : 20px;
+  margin-top : 50px;
+  line-gap-override: 2px;
+}
+.service_right > button{
+  margin-top : 50px;
+  border-color: #f0ac47;
+  border-width : 1px;
+  background-color: black;
+  width : 150px;
+  height : 40px;
+  border-radius : 10px;
+  text-decoration-color: var(--brand);
+  background: var(--brand, #FBB247);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size : 15px;
+  font-weight : 300;
+}
+@keyframes fade-In{
+  from{
+    opacity : 0;
+  }
+  to{
+    opacity : 1;
+  }
 }
