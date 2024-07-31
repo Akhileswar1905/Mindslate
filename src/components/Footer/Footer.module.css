@@ -22,15 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  height: 100vh;
-  color: white;
-  flex-direction: column;
-  position: fixed;
-  bottom: 0;
-=======
-  margin-left : 50px;
->>>>>>> b82efe9 (Intial Commit)
 }
 .logo > img{
   object-fit:contain;
