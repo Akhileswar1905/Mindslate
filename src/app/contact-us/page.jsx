@@ -15,7 +15,7 @@ const ContactUsPage = () => {
         <input type = 'tel' name = 'phone' placeholder = 'Phone'/>
         <input type = 'text' name = 'company' placeholder = 'Company name'/>
         <textarea name = 'message' placeholder = 'Message......'/>
-        <button type = 'submit'>Let's Connect</button>
+        <button type = 'submit'>Let&apos;s Connect</button>
       </form>
     </div>
   </div>
